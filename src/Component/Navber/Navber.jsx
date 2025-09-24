@@ -6,7 +6,7 @@ const Navbar = () => {
       <Container>
         <nav className="px-8 py-4 flex justify-between items-center">
           <h1 className="md:text-xl text-black  text-sm font-bold">
-            PH University
+            PH Banglo
           </h1>
           <div className="md:flex hidden items-center gap-6">
             <a href="#" className="text-gray-600">

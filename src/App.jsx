@@ -1,19 +1,21 @@
+import { useState } from "react";
 import "./App.css";
+import Card from "./Component/Card/Card";
 import Footer from "./Component/Footer/Footer";
 import Navber from "./Component/Navber/Navber";
+import ToggleButtons from "./Component/ToggleButtons/ToggleButtons";
 
 function App() {
+  const [toggleStatus, setToggleStatus] = useState("All");
+  console.log(toggleStatus);
   return (
     <>
       <Navber></Navber>
-
-      <div>
-        <div className="bg-gray-500 rounded-lg">
-          <h2 className="text-3xl">Pending </h2>
-          <p>0</p>
-        </div>
-      </div>
-
+      <Card></Card>
+      <ToggleButtons
+        toggleStatus={toggleStatus}
+        setToggleStatus={setToggleStatus}
+      ></ToggleButtons>
       <Footer></Footer>
     </>
   );

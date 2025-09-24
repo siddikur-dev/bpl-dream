@@ -1,6 +1,5 @@
 import Container from "../Container/Container";
 
-
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 px-8 py-12 ">
