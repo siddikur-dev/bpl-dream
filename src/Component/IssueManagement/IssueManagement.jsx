@@ -8,6 +8,11 @@ const IssueManagement = ({ fetchPromise }) => {
   const [toggleStatus, setToggleStatus] = useState("All");
 
   const [data, setData] = useState(fetchUse);
+  const filterData =
+    toggleStatus === "All"
+      ? data
+      : data.filter((element) => element.status === toggleStatus);
+  console.log(filterData);
   return (
     <div>
       <Card key={data.ticketId} data={data}></Card>
@@ -17,7 +22,7 @@ const IssueManagement = ({ fetchPromise }) => {
         setToggleStatus={setToggleStatus}
       ></ToggleButtons>
       <div className="grid grid-cols-3 container mx-auto gap-5 p-3">
-        {data.map((issue) => (
+        {filterData.map((issue) => (
           <Card2 key={issue.ticketId} issue={issue} />
         ))}
       </div>
