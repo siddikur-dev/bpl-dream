@@ -23,7 +23,7 @@ const Navbar = () => {
               Contact
             </a>
             <button className="bg-purple-600 text-white px-4 py-2 rounded-lg hover:cursor-pointer">
-              + New Assignment
+              + New Jhaki
             </button>
           </div>
           <div className="block md:hidden"></div>

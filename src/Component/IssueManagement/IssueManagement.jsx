@@ -6,17 +6,19 @@ import Card2 from "../Card/Card2";
 const IssueManagement = ({ fetchPromise }) => {
   const fetchUse = use(fetchPromise);
   const [toggleStatus, setToggleStatus] = useState("All");
+
+  const [data, setData] = useState(fetchUse);
   return (
     <div>
-      <Card></Card>
+      <Card key={data.ticketId} data={data}></Card>
 
       <ToggleButtons
         toggleStatus={toggleStatus}
         setToggleStatus={setToggleStatus}
       ></ToggleButtons>
       <div className="grid grid-cols-3 container mx-auto gap-5 p-3">
-        {fetchUse.map((issue) => (
-          <Card2 key={issue.id} issue={issue} />
+        {data.map((issue) => (
+          <Card2 key={issue.ticketId} issue={issue} />
         ))}
       </div>
     </div>

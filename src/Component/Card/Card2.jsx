@@ -1,7 +1,6 @@
 import React from "react";
 
 const Card2 = ({ issue }) => {
-  console.log(issue);
   return (
     <div className="shadow-md rounded-md cursor-pointer bg-slate-100 p-4">
       <div>
