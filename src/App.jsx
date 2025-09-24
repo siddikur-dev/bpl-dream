@@ -1,21 +1,21 @@
-import { useState } from "react";
+import { Suspense } from "react";
 import "./App.css";
-import Card from "./Component/Card/Card";
 import Footer from "./Component/Footer/Footer";
+import IssueManagement from "./Component/IssueManagement/IssueManagement";
 import Navber from "./Component/Navber/Navber";
-import ToggleButtons from "./Component/ToggleButtons/ToggleButtons";
 
 function App() {
-  const [toggleStatus, setToggleStatus] = useState("All");
-  console.log(toggleStatus);
+  const fetchDatas = async () => {
+    const res = await fetch("./data.json");
+    return res.json();
+  };
+  const fetchPromise = fetchDatas();
   return (
     <>
       <Navber></Navber>
-      <Card></Card>
-      <ToggleButtons
-        toggleStatus={toggleStatus}
-        setToggleStatus={setToggleStatus}
-      ></ToggleButtons>
+      <Suspense fallback={"Loading..."}>
+        <IssueManagement fetchPromise={fetchPromise}></IssueManagement>
+      </Suspense>
       <Footer></Footer>
     </>
   );
