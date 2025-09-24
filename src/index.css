@@ -2,5 +2,5 @@
 @plugin "daisyui";
 
 .btn-toggle{
-    @apply bg-purple-200 cursor-pointer
+    @apply bg-purple-200 cursor-pointer py-2
 }
