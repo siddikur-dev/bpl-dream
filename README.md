@@ -1,12 +1,39 @@
-# React + Vite
+# 👋 Hi, I'm Siddikur Rahman
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Profile Image](./assets/profile.jpg "Siddikur Rahman")
 
-Currently, two official plugins are available:
+## 💻 About Me
+I'm a **Passionate Web Developer** focused on building modern, responsive web applications with **React & JavaScript**.  
+I love creating clean UI/UX and solving real-world problems with code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
+- React (Vite)
+- JavaScript (ES6+)
+- Tailwind CSS
+- Firebase / API Integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📫 Contact
+- 🌐 Portfolio: [Live Projects](https://github.com/siddikur-dev?tab=repositories)  
+- 💼 LinkedIn: [Siddikur Rahman](https://www.linkedin.com/in/opurnoprottasha/)  
+- 📧 Email: your-email@example.com  
+
+---
+
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=siddikur-dev&show_icons=true&theme=radical)
+
+---
+
+### ✨ Demo
+This is a simple personal demo project built with **React + Vite**.  
+You can run it locally with:
+
+```bash
+git clone <repo-url>
+cd project-name
+npm install
+npm run dev
