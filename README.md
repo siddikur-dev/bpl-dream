@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Siddikur Rahman
 
-![Profile Image](./assets/profile.jpg "Siddikur Rahman")
+![Profile Image](https://i.ibb.co.com/TDp6G39f/profile-pic.png)
 
 ## 💻 About Me
 I'm a **Passionate Web Developer** focused on building modern, responsive web applications with **React & JavaScript**.  
@@ -17,7 +17,7 @@ I love creating clean UI/UX and solving real-world problems with code.
 ---
 
 ## 📫 Contact
-- 🌐 Portfolio: [Live Projects](https://github.com/siddikur-dev?tab=repositories)  
+- 🌐 Portfolio: [My GitHub Projects](https://github.com/siddikur-dev?tab=repositories)  
 - 💼 LinkedIn: [Siddikur Rahman](https://www.linkedin.com/in/opurnoprottasha/)  
 - 📧 Email: your-email@example.com  
 
