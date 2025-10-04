@@ -21,7 +21,7 @@ I love creating clean UI/UX and solving real-world problems with code.
 - 💼 LinkedIn: [Siddikur Rahman](https://www.linkedin.com/in/opurnoprottasha/)  
 - 📧 Email: your-email@example.com  
 
----
+--- 
 
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=siddikur-dev&show_icons=true&theme=radical)
